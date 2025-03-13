@@ -1,3 +1,4 @@
 //your JS code here. If required.
-const String = fname;
-console.log(str.toUpperCase());
+document.getElementById('fname').addEventListener('blur', function() {
+    this.value = this.value.toUpperCase();
+});
